@@ -1,0 +1,346 @@
+* {
+    padding:0%;
+    margin:0%;
+}
+
+.bigheader {
+    padding: 25px;
+    color: #d9dac4;
+    background:#406e88;
+    text-align: center;
+}
+
+.bigheader h1 {
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.bigheader p {
+    padding-top:5px;
+    font-size: 25px;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #13131d;
+    justify-content: space-between;
+    display: flex;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.active {
+    color: #d9dac4;
+}
+
+.inactive:hover {
+    color: #d9dac4;
+}
+
+.inactive {
+    color:#233e5e;
+}
+
+.navbar ul {
+    width: fit-content;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline;
+    float: left;
+    padding: 0 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.navbar-icons{
+    column-gap: 30px;
+    width: fit-content;
+    height: 100%;
+    padding-right: 50px;
+    display:flex;
+    align-items:center;
+}
+
+.linkedin {
+    width: 30px;
+    height: 30px;
+    background-image: url(linkedin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+
+.linkedin:hover {
+    transform: scale(1.3);
+}
+
+.email {
+    width: 40px;
+    height: 40px;
+    background-image: url(email.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+
+.email:hover {
+    transform: scale(1.3);
+}
+
+h1 {
+    font-family: "Lexend", sans-serif;
+}
+
+h2 {
+    font-family: "Lexend", sans-serif;
+}
+
+p {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parallax {
+    background-image: url("livingroom.png");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax-2 {
+    background-image: url("gleepbanner.png");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax-3 {
+    background-image: url("coffeeshop_banner.png");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax-4 {
+    background-image: url("phone.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bar {
+    background-color:#13131d;
+    width: 100%;
+    height: 30px;
+}
+
+body {
+    background-color: #d9dac4;
+}
+
+.about {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-text {
+    display: flex;
+    padding-top:20px;
+    padding-left:60px;
+    flex-basis: 500px;
+    font-size:25px;
+}
+
+.about-img {
+    padding-left: 250px;
+}
+
+.footer {
+    position: fixed;
+    background-color: #406e88;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    color: #13131d;
+    font-size: 50%;
+    text-align: center;
+  }
+
+div.gallery {
+  margin: 15px;
+  float: left;
+  padding-left:15px;
+  width: 250px;
+  height: 300px;
+}
+
+.info-3d {
+    padding: 25px;
+}
+
+.info-main {
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info-main-btm a {
+    color:#233e5e
+    
+}
+
+.info-main-btm:hover {
+    transition: transform .2s;
+    transform: scale(1.02);
+}
+
+.info-main-btm {
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+.info-main-btm h1{
+    text-align:center;
+    font-size:50px;
+    padding-bottom:30px;
+}
+
+.info-main p{
+    float:right;
+    padding-left:60px;
+    padding-right:60px;
+    flex-basis: 25%;
+    text-align:justify;
+    font-size:30px;
+    padding-bottom:30px;
+}
+
+.info-main h1{
+    text-align:center;
+    font-size:50px;
+    padding-bottom:30px;
+}
+
+
+.info-3d h1{
+    font-size:50px;
+    padding: 10px;
+}
+
+.sized {
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.info-3d p{
+    float:left;
+    padding-top:10px;
+    padding-left:60px;
+    align-self:auto;
+    font-size:30px;
+    padding-bottom:30px;
+}
+
+.bottom-info-3d {
+    text-align:center;
+    padding: 50px;
+    padding-top: 750px;
+}
+
+.bottom-info-3d h1 {
+    font-size:50px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.spacer {
+    padding:50px;
+}
+
+.bottom-info {
+    text-align:center;
+    padding: 50px;
+    padding-top: 225px;
+}
+
+.sidetext {
+  font-size: 20px;
+
+}
+
+.bottom-info h1 {
+    font-size:50px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.bottom-info-img {
+    column-gap: 80px;
+    width: fit-content;
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.bottom-info-img img {
+    float:center;
+    display: block;
+    margin-left: auto;
+    column-gap: 80px;
+    margin-right: auto;  
+}
+
+.gifs{
+    padding: 70px;
+    text-align: center;
+}
+
+div.gallery:hover {
+    transition:ease-in-out;
+    box-shadow: 10px 10px 20px rgba(13, 35, 68, 0.5);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
